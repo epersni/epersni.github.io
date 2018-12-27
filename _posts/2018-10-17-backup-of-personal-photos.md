@@ -9,7 +9,7 @@ First, let me show you how my share I mounted on my lab computer. Here is the re
 ```bash
 # /etc/fstab
 /dev/sda1 /pictures-mirror     ext4    errors=remount-ro,ro 0       1
-//192.168.88.246/photos /pictures cifs credentials=/home/nicklas/.smbcredentials,rw 0 0
+//192.XXX.XX.XXX/photos /pictures cifs credentials=/home/nicklas/.smbcredentials,rw 0 0
 ```
 
 The share is a **samba** share so that is why I specify my login credentials in a file (which is only readable by me or by root). The **/home/nicklas/.smbcredentials** could for example look like this:
