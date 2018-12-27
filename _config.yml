@@ -1,2 +1,4 @@
 theme: jekyll-theme-midnight
 paginate: 5
+name: epersni
+description: A blog for embedded developers
