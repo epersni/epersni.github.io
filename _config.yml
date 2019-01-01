@@ -2,3 +2,4 @@ theme: jekyll-theme-midnight
 paginate: 5
 name: epersni
 description: A blog for embedded developers
+google_analytics: UA-131556810-1
